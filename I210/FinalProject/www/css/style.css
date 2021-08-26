@@ -1,0 +1,172 @@
+#curdate {
+    color:white;
+}
+
+a {
+    color: lightgreen;
+}
+
+body {
+    margin: 0;
+    font-family: OCR extended;
+}
+.search {
+    height: 30px;
+    position: relative;
+    border: 2px solid grey; 
+    background-color: AliceBlue;
+    font-size: 12px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    display:flex;
+}
+
+.topnav a {
+    float: left;
+    color: magenta;
+    text-align: center;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+
+.topnav a:hover {
+    background-color: #756969;
+
+}
+.topnav2 {
+    overflow: hidden;
+    display:flex;
+}
+
+.topnav2 a {
+    float: left;
+    color: turquoise;
+    text-align: center;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+
+.topnav2 a:hover {
+    background-color: #756969;
+
+}
+#titles {
+    background-color: #006666;  
+}
+
+
+/*Website background */
+#wrapper {
+    background-image: url('../..//www/images/backgroundhome.jpg');
+}
+/*game details coloring*/
+
+/*setting margins for game images on the library page*/
+#image {
+    margin: 20px;
+}
+/*setting an outline to show people that they are on a game*/
+#image:hover{
+    outline-style: solid;
+    outline-color: blue;
+}
+
+#gamedetails {
+    color:white;
+}
+
+#cart {
+    background-color: #006666;
+    width: 15px;
+}
+
+/*setting the dimensions of the gamedetails table */
+table.gamedetails {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+/*setting the dimensions of the entire header cell for the gamedetails table. */
+
+table.gamedetails th {
+    border: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5px
+    
+}
+/*setting the dimensions of the standard cells for the gamedetails table.*/
+table.gamedetails td {
+    border: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #ccc;
+    padding: 2px;
+    vertical-align: top;
+}
+
+/*setting the dimensions of the header and paragraphs tags in the gamedetails table.*/
+table.gamedetails h4, table.gamedetails p {
+    margin: 0px 0px 25px 10px;
+ 
+}
+
+/*setting the dimensions/color of the individual header cells in the gamedetails table.*/
+table.gamedetails td.col1 {
+    width: 10%;
+}
+
+table.gamedetails td.col2 {
+    background-color: #006666;
+    width: 15px;
+    
+}
+
+table.gamedetails td.col3 {
+    width: 800px;
+}
+
+
+a, p, li, div {
+    font-size: 16pt;
+    text-decoration: none;
+    font-family: Courier;
+}
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        color: white;
+        width: 50%;
+        padding: 10px;
+        height: 450px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+
+
+    }
+
+
+#footer {
+    color: white;
+}
